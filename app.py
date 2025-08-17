@@ -46,7 +46,7 @@ try:
     client = OpenAI(api_key=api_key)
 except Exception as e:
     st.error(f"❌ Failed to initialize OpenAI client: {e}")
-    st.stop()
+    # st.stop()
 
 # ---------- Enhanced Database ----------
 def init_db():
