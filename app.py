@@ -42,8 +42,10 @@ if not api_key:
     # st.info("💡 Set it in your terminal: `set OPENAI_API_KEY=your-key-here` (Windows) or `export OPENAI_API_KEY=your-key-here` (Mac/Linux)")
     
 
-
-client = OpenAI(api_key=api_key)
+try:
+    client = OpenAI(api_key=api_key)
+except Exception as e:
+    st.error(f"❌ Failed to initialize OpenAI client.")
     
 
 # ---------- Enhanced Database ----------
