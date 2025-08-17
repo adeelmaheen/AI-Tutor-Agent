@@ -1,0 +1,14 @@
+streamlit
+openai
+matplotlib
+pandas
+openai 
+fpdf2
+pyPDF2 
+python-dotenv
+seaborn
+langchain
+langchain-community
+langchain-openai
+faiss-cpu
+

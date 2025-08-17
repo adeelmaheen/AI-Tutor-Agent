@@ -1,0 +1,21 @@
+[project]
+name = "ai-tutor-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "faiss-cpu>=1.12.0",
+    "fpdf2>=2.8.4",
+    "langchain>=0.3.27",
+    "langchain-community>=0.3.27",
+    "langchain-openai>=0.3.30",
+    "matplotlib>=3.10.5",
+    "openai>=1.37",
+    "pandas>=2.3.1",
+    "pypdf2>=3.0.1",
+    "python-dotenv>=1.1.1",
+    "seaborn>=0.13.2",
+    "streamlit>=1.40",
+]
+
