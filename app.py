@@ -45,7 +45,7 @@ if not api_key:
 try:
     client = OpenAI(api_key=api_key)
 except Exception as e:
-    st.error(f"❌ Failed to initialize OpenAI client: {e}")
+    st.error(f"❌ Failed to initialize OpenAI client.")
     # st.stop()
 
 # ---------- Enhanced Database ----------
